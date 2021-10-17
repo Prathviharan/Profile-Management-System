@@ -1,0 +1,144 @@
+/* This for header css*/
+#top1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+#top2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.fpass_text{
+    margin-left: 30px;
+}
+.all_text{
+    margin-left: 20px;
+    padding-left: 11px;
+}
+.intro_link{
+    text-decoration: none;
+}
+body{
+
+    background-image: linear-gradient(#ffbedd, #92f9f0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form{
+    width: 620px;
+    height: auto;
+    margin: auto;
+    background-color: #d2d2d2;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Open Sans";
+}
+input{
+    position: relative;
+    width: 80%;
+    margin-left: 5%;
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+}
+
+
+.label-input{
+    position: relative;
+    margin-left: 10px;
+    width: 150px;
+    bottom: 40px;
+    margin-top: 80px;
+    margin-right: 15px;
+    padding-bottom:19px ;
+    padding-left: 20px;
+    padding-right: 385px;
+    height: 3.8%;
+    left: 20px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    border-radius: 30px;
+    transition: 0.2s all;
+}
+.label-input-confirmPass{
+    position: relative;
+    margin-left: 10px;
+    width: 150px;
+    bottom: 40px;
+    margin-top: 80px;
+    margin-right: 15px;
+    padding-bottom:19px ;
+    padding-left: 20px;
+    padding-right: 362px;
+    height: 3.8%;
+    left: 20px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    border-radius: 30px;
+    transition: 0.2s all;
+
+}
+
+.for_pass{
+    top: -20px;
+}
+
+.all_other{
+    padding-top: -12px;
+}
+input:focus,
+input:valid {
+    border-bottom:1px solid #ff9800;
+}
+input:focus~label,
+input:valid~label {
+    font-size: 13px;
+    color: #ff9800;
+    border: none;
+}
+
+#fpass{
+    position: relative;
+    font-size: 15px;
+    left: 55%;
+    text-decoration: none;
+}
+.submit_align{
+    position: relative;
+    bottom: 20px;
+    left:-4px
+}
+
+
+.cancel{
+    width:30%;
+    height: 35px;
+    background-color: white;
+    border:1px solid #ff9800;
+    color: #ff9800;
+    margin-left: 33px;
+    font-size: 20px;
+}
+
+.submit{
+    width:30%;
+    height: 35px;
+    background-color: #ff9800;
+    border:1px solid white;
+    color: white;
+    margin-left: 33px;
+    font-size: 20px;
+}
+
+

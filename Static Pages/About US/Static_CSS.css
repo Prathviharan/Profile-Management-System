@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(#ffbedd, #92f9f0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Open Sans";
+}
+
+.div1{
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    height: 750px;
+    overflow: hidden;
+    background-image: linear-gradient(#92f9f0,#ffbedd );
+}
+.insideDiv1{
+    position: relative;
+    margin-left:37.5%;
+    margin-right: 37.5%;
+    background-color:white;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+.info{
+    position: relative;
+    bottom:145px;
+    left: 150px;
+}
+
+.insideDiv2{
+    position: relative;
+    background-color: white;
+    margin-left:20%;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.insideDiv3{
+    position: relative;
+    background-color: white;
+    bottom: 139px;
+    margin-left:55%;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.insideDiv4{
+    position: relative;
+    background-color: white;
+    margin-left:5%;
+    bottom: 50px;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.insideDiv5{
+    position: relative;
+    background-color: white;
+    bottom: 188px;
+    margin-left:37%;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.insideDiv6{
+    position: relative;
+    background-color: white;
+    bottom: 327px;
+    margin-left:69%;
+    width: 25%;
+    height: 134px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.div2{
+    font-size: 30px;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding:10px ;
+    overflow: hidden;
+    background-image: linear-gradient(#92f9f0,#ffbedd );
+}
+
+.note{
+    color: red;
+}
+
+.div3{
+    font-size: 30px;
+    height: auto;
+    background-color: gray;
+    border-radius: 30px;
+    padding:10px ;
+    overflow: hidden;
+    background-image: linear-gradient(#ffbedd,#92f9f0 );
+}

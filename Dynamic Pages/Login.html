@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+</head>
+<body>
+<div id="whole" class="font">
+    <!--Header of the website -->
+    <img id="top" src="Src/Img/top_login.png" alt="Logo" height="143px" width="165px">
+    <!--Body-->
+    <br><br>
+    <form method="post" action="login.php">
+        <h1 class="login_text">Log in</h1>
+        <p>
+
+            <input type="email" id="log_email" placeholder="Enter the Email Address" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}">
+            <br>
+            <label class="label-input">E-mail</label>
+        <div>
+            <input type="password" id="log_password" placeholder="Enter the Password" name="password" required pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{5,50}">
+            <label class="label-input-password">Password</label>
+            <a id="fpass" href="FPASS.php" class="for_pass">forgot password?</a>
+        </div>
+        </p>
+        <div class="all_other">
+            <p >
+                <input class="submit" type="submit" name="login" value="Login" >
+            </p>
+            <p id ="just">
+                Or Just continue As a
+            </p>
+            <p>
+                <a href="#"> <button type="button" id="guest">Guest </button></a>
+            </p>
+            <p id ="if_you">
+                if you don't have an account
+            </p>
+            <p id="cna_btn">
+                <a href="CNA.html"> <button type="button" id="CNA">Create New Account</button></a>
+            </p>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>

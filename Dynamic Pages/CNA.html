@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create an Account</title>
+    <script type="text/javascript" src="JS/CNA_JS.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/CNA.css">
+</head>
+<body>
+<div id="whole">
+    <!--Header of the website -->
+    <img id="top" src="Src/Img/top.png" alt="Logo" height="143px" width="165px">
+    <!--Body-->
+    <div id="form" class="font">
+        <form  method="post" action="CNA.php" enctype="multipart/form-data">
+            <!--Form Inputs-->
+            <h1 class="Lsign">Sign Up</h1>
+            <br>
+            <!--This code for adding profile photo :) -->
+            <div id="profile">
+                <img title="It's you" src="Src/Img/profile.png" alt="profile_photo" id="pro_img" width="128" height="128" > <!--source of image :) -->
+                <input type="file" id="file" alt="Profile photo" name="photo" accept=".png,.jpg,.jpeg" onchange="profile(event)" required> <!-- get the image as input -->
+                <label class="pro_label" title="Click here to change photo" for="file" id="Btn">Change</label> <!--This is the change button -->
+            </div>
+            <input title="Enter your First Name" type="text" name = "Fname" placeholder="First Name" autocomplete="off" required>
+            <label class="label-input">First Name</label>
+            <p>
+                <input title="Enter your Last Name" type="text" name = "Lname" placeholder="First Name" autocomplete="off" required>
+                <label class="label-input">Last Name</label>
+            </p>
+
+            <p>
+                <input title="Enter your E-mail" type="email" name = "Email" placeholder="example@xyz.com" autocomplete="off" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"  >
+                <label class="label-input-email">Email</label>
+            </p>
+            <p id ="gender">
+                <label title="Select your gender" class="label">Gender</label>
+                <br>
+                <input title="Male" type="radio" name="gender" id="male" value="male" required> <label id="l_male">Male</label>
+                <input title="Female" type="radio"  name="gender" id="female" value="female" required> <label id="l_female">Female</label>
+            </p>
+            <p>
+                <label title="Select User type" class="label">User Type</label>
+                <br>
+                <select title="Select User type" name="userType" id="user" required class="dropdown">
+                    <option value="" id="default_option" disabled selected>---- Select the User Type -----</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Parent">Parent</option>
+                </select>
+            </p>
+            <p>
+
+                <label for="dob" class="label">Date Of Birth</label>
+                <br>
+                <input type="date" id="dob" name="dob" required>
+            </p>
+            <p>
+                <br>
+                <input title="Enter a Password that you won't forget" type="password" id="password" name="chk_pass" autocomplete="off"required pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{5,50}"  placeholder="Enter the Password">
+                <label title="Enter a strong Password" class="label-input-password">Password</label>
+            </p>
+            <p>
+                <input title="Enter the Password that you entered above field" type="password" id="confirm_password" name="Pass" autocomplete="off" required pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{5,50}"  placeholder="Confirm Password">
+                <label title="Confirm your Password" class="label-input-confirmPass">Confirm Password</label>
+            </p>
+            <div>
+                <label title="Please select a question and answer it" class="label">Security Question</label>
+                <br>
+                <select title="Select a security question for more security :) " name="pass_question" id="pass_question" required class="dropdown">
+                    <option value="" id="default_question" disabled selected>---- Select a security question ----</option>
+                    <option value="What was your favorite subject in campus?">What was your favorite subject in campus?</option>
+                    <option value="Where did you go on your vacation ?">Where did you go on your vacation ?</option>
+                    <option value="What was your first pet ?">What was your first pet ?</option>
+                    <option value="Where do you live now ?">Where do you live now ?</option>
+                </select>
+                <br>
+            </div>
+            <p>
+                <br>
+                <input title="Enter the answer for the above question" type="text" name = "pass_question_answer" placeholder="Enter the Answer" autocomplete="off" required>
+                <label title="Please answer the question" class="label-input-answer">Answer</label>
+            </p>
+            <p>
+                <input title="Click to accept"  type="checkbox" id="accept" required onclick="enableButton()">
+                <label id="accept_words" for="accept">I Accept Privacy Policy and Terms</label>
+            </p>
+            <p>
+
+                <input title="Click here to enter our World :)" id="submit" type="submit" value="Sign UP" name="submit" disabled>
+                <input title="Click here to clear all the data that you entered" id="reset" type="reset" value="Reset">
+            </p>
+            <p id="already" title="if you have an account , just click login :)">
+                Already Member?
+                <a id="login" href="Login.html">Login</a>
+
+            </p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

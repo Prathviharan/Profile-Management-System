@@ -1,0 +1,305 @@
+/* This for header css*/
+#top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.Lsign{
+    margin-left: 9%;
+}
+body{
+    background-image: linear-gradient(#ffbedd, #92f9f0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* This is for Profile picture*/
+#profile{
+    height: 128px;
+    width: 128px;
+    position: relative;
+    top: 50px;
+    left: 177px;
+    transform: translate(-50%,-50%); /*Move element thorough X & Y Axis*/
+    border-radius: 50%;
+    overflow: hidden; /*Without the text all other things will hide*/
+    border: 2px solid orange;
+
+}
+
+#file{
+    display: none;
+}
+
+#Btn{
+    height: 40px;
+    line-height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /*Move element thorough X  Axis*/
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /*This is for transparent colour*/
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+
+/*This for form css*/
+#form{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background-color: #d2d2d2;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.label{
+    font-size: 14px;
+    margin-left: 43px;
+}
+
+/* Font type css */
+.font{
+    font-family: Calibri;
+
+}
+/*This is for input alignment*/
+input{
+    width: 75%;
+    position: relative;
+    padding: 9px;
+    border-radius: 30px;
+    margin-left: 35px;
+    border: none;
+    height: 25px;
+    outline: none;
+    text-align: center;
+
+}
+.label-input{
+    position: relative;
+    margin-left: 15px;
+    width: 100px;
+    bottom: 43px;
+    margin-top: 70px;
+    margin-right: 10px;
+    padding-bottom:23px ;
+    padding-left: 10px;
+    padding-right: 218.5px;
+    height: 3.8%;
+    left: 20px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    border-radius: 30px;
+    transition: 0.2s all;
+
+}
+.label-input-email{
+    position: relative;
+    margin-left: 18px;
+    width: 100px;
+    bottom: 44px;
+    margin-top: 50px;
+    padding-bottom:24px ;
+    border-radius: 30px;
+    padding-right: 247px;
+    padding-left: 10px;
+    height: 3.8%;
+    left: 17px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    transition: 0.2s all;
+
+}
+
+input:focus,
+input:valid {
+    border-bottom:1px solid #ff9800;
+}
+input:focus~label,
+input:valid~label {
+    font-size: 13px;
+    color: #ff9800;
+    border: none;
+}
+
+/*This for radio buttons css*/
+#male {
+    position: relative;
+    width: auto;
+    border-color: #ff9800;
+
+    height: 20px;
+    background-color: transparent;
+    top:3px;
+}
+#female {
+    position: relative;
+    left: 34.3%;
+    width: auto;
+    border-color: #ff9800;
+    height: 20px;
+    top:3px;
+
+}
+
+#l_male{
+    position: relative;
+    left:2%;
+    font-size: 14px;
+}
+#l_female{
+    position: relative;
+    left: 130px;
+    font-size: 14px;
+}
+/*This for for dropdown list*/
+.dropdown{
+    width: 80.7%;
+    padding: 8px;
+    margin-left: 35px;
+    border: none;
+    height: 45px;
+    border-radius: 30px;
+    outline: none;
+    border-bottom:1px solid black ;
+    background-color: white;
+    text-align: center;
+}
+select{
+    border-bottom:1px solid black ;
+}
+select:valid{
+    border-bottom: 1px solid #ff9800;
+    outline: none;
+}
+
+
+.label-input-password{
+    position: relative;
+    margin-left: 18px;
+    width: 100px;
+    bottom: 45px;
+    margin-top: 50px;
+    padding-bottom:25px ;
+    border-radius: 30px;
+    padding-right: 225px;
+    padding-left: 10px;
+    height: 3.8%;
+    left: 17px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+
+.label-input-confirmPass{
+    position: relative;
+    margin-left: 18px;
+    width: 100px;
+    bottom: 45px;
+    margin-top: 50px;
+    padding-bottom:25px ;
+    border-radius: 30px;
+    padding-right: 177px;
+    padding-left: 10px;
+    height: 3.8%;
+    left: 17px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+select option{
+    color: gray;
+}
+/*This for for dob*/
+#dob{
+    width: 76.5%;
+    padding: 7px;
+    height: 28px;
+    border-bottom:1px solid black;
+}
+#dob:valid{
+    border-bottom:1px solid #ff9800;
+}
+
+.label-input-answer{
+    position: relative;
+    margin-left: 18px;
+    width: 100px;
+    bottom: 45px;
+    margin-top: 50px;
+    padding-bottom:25px ;
+    padding-right: 236px;
+    border-radius: 30px;
+    padding-left: 10px;
+    height: 3.8%;
+    left: 17px;
+    font-size: 14px;
+    border-bottom:1px solid black;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+
+/*This for for check box*/
+
+#accept{
+    position: relative;
+    width: auto;
+    bottom: 10px;
+    margin-left: 49px;
+}
+#accept_words{
+    position: relative;
+    width: 100%;
+    bottom: 17px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+#submit{
+    position: relative;
+    width:32%;
+    height: 33px;
+    background-color: #ff9800;
+    border: 1px solid white;
+    color: white;
+}
+#reset{
+    position: relative;
+    width: 32%;
+    margin-left: 55.3px;
+    height: 33px;
+    color: #ff9800;
+    border:1px solid #ff9800;
+    background-color: white;
+}
+
+#already{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: dimgray;
+}
+#login{
+
+    text-decoration: none;
+}
+
+
+

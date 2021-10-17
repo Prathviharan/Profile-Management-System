@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(#ffbedd, #92f9f0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+input{
+    width: 15%;
+}
