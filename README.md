@@ -13,7 +13,9 @@ To get Best Output  , Do this
     
     1.Please follow the read me first in dynamic page folder    
 
-    2.Then Have fun :)
+    2.If you like to improve then create a pull request would be appreciated !!!
+    
+    3.Then Have fun :)
 
 ![image](https://user-images.githubusercontent.com/76228369/137631716-b611e8af-ec89-4974-9d06-d90ac0685a4a.png)
 
