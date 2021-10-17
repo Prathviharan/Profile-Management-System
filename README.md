@@ -13,7 +13,7 @@ To get Best Output  , Do this
     
     1.Please follow the read me first in dynamic page folder    
 
-    2.If you like to improve then create a pull request would be appreciated !!!
+    2.If you like to improve then creating a pull request would be appreciated !!!
     
     3.Then Have fun :)
 
